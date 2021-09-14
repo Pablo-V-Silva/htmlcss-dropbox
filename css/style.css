@@ -22,14 +22,24 @@
 }
 /* -debug_nav */
 
-.backxl {
+.debug .backxl {
     height: 500px;
     background-color: cadetblue;
 }
 
-.containxl {
+.debug .containxl {
     height: 100%;
     background-color: cornflowerblue;
+}
+
+.debug .containsm {
+    height: 1000px;
+    background-color: crimson;
+}
+
+.debug .partner {
+    height: 300px;
+    background-color: darkblue;
 }
 /* /debug */
 
@@ -78,6 +88,11 @@ padding-top: 5rem;
 .containxl {
     width: 80%;
     margin: 0 auto;
+}
+
+.containsm {
+    width: 60%;
+    margin: 2rem auto;
 }
 
 /*
