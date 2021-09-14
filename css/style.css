@@ -10,6 +10,10 @@
     clear: both;
 }
 
+body {
+    font-family: 'Open Sans',sans-serif;
+}
+
 /* debug */
 .debug nav {
     height: 80px;
@@ -80,19 +84,51 @@ nav li {
 .mdx {
     text-align: end;
 }
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 /* /Utility */
 
 /* *********
 * header
 */
+header a {
+    color: black;
+}
+
 nav {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.logo {
+    position: relative;
+    top: 0.3rem;
 }
 .hcol {
     width: 50%;
+}
+
+nav li {
+    padding: 0 1.5rem;
+}
+
+li> button {
+    padding: 0.5rem 1rem;
+    background-color: #0061FF;
+    border: 0;
+    color: white;
 }
 /*
 * /header
