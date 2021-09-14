@@ -98,6 +98,12 @@ a:hover {
     width: 70%;
 }
 
+.bluebtn:hover, .bluebtnbig:hover {
+    background-color: #003386;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
 /* /Utility */
 
 /* *********
@@ -221,15 +227,56 @@ padding-top: 2.5rem;
 
 .col_abb {
     width: 30%;
+    float: left;
 }
+
+.col_abb:nth-child(4) {
+    margin: 0 5%;
+}
+
 .card {
     width: 100%;
     border: 2px solid lightgray;
 }
 
+.title_card {
+    font-size: 2rem;
+}
+
 .type {
     text-align: center;
     border-bottom: 2px solid lightgray;
+    padding: 10px 0;
+}
+
+.spazixxl {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.spazixl {
+    padding: 1rem;
+}
+
+.spazism {
+    padding: 0.6rem 1rem;
+}
+
+.bluebtnbig {
+    padding: 0.5rem 3rem;
+    background-color: #0061FF;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.spazibot {
+    padding-bottom: 5rem;
+}
+
+.desc_abb hr {
+    width: 80px;
+    
+    margin: 1rem 1rem;
 }
 
 .desc_abb ol {
@@ -238,14 +285,28 @@ padding-top: 2.5rem;
 
 .desc_abb li {
     padding: 1rem;
+    font-family: Font Awesome 5 Free;
 }
 
 .desc_abb li:before {
     content: "\f00c";
-    font-family: Font-Awesome;
     display: inline-block;
     margin-left: -1rem;
     width: 1rem;
+}
+
+.row_abb {
+    width: 100%;  
+}
+
+.row_abb>.card {
+    position: relative;
+}
+
+.row_abb>.card .bluebtnbig {
+    position: absolute;
+    right: 1rem;
+    top: 4.5rem;
 }
 /*
 _ /main 
