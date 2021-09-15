@@ -497,6 +497,7 @@ padding-top: 2.5rem;
 
 .qna {
     margin-top: 10rem;
+    padding-bottom: 5rem;
 }
 
 .qna h2 {
@@ -505,8 +506,27 @@ padding-top: 2.5rem;
 
 .q {
     border-bottom: 1px solid gray;
+    padding: 1.5rem 0;
+    position: relative;
+}
+.q:hover .a {
+    display: block;
 }
 
+.q:hover .darrow {
+    transform: rotate(180deg);
+}
+
+.a {
+    padding-top: 0.7rem;
+    display: none;
+}
+
+.darrow {
+    position: absolute;
+    right: 0;
+    top: 1.7rem;
+}
 /*
 _ /main 
 ____________ */
