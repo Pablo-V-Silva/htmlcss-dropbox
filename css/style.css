@@ -535,6 +535,39 @@ ____________ */
 - footer */
 .backfoot {
     width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.col_20 {
+    width: 20%;
+    float: left;
+    padding: 4rem 0;
+}
+
+.col_20 h3 {
+    padding: 2rem 0;
+}
+
+.col_20 li {
+    list-style: none;
+    padding: 0.7rem 0;
+}
+
+.col_20 a{
+    color: white;
+}
+
+footer hr {
+    width: 10rem;
+}
+
+.lingue {
+    padding: 5rem 0;
+}
+.lingue a {
+    text-decoration: none;
+    color: white;
 }
 /*
 - /footer 
