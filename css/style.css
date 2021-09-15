@@ -404,11 +404,12 @@ padding-top: 2.5rem;
 
 }
 
-.img_partners {
+.c_img_partners {
     width: 50%;
     height: 317px;
     object-fit: contain;
-    objec
+    position: relative;
+    float: left;
 }
 
 .des_desc {
@@ -429,7 +430,28 @@ padding-top: 2.5rem;
 
 .green {
     background-color: #A2D39B;
-    border: 5px solid #D0E9CD;
+    border: 15px solid #D0E9CD;
+}
+
+.bordeaux {
+    background-color: #61082B;
+}
+
+.azure {
+    background-color: #0093CE;
+}
+
+.red {
+    background-color: #FF1C1C;
+}
+
+.img_partners {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 /*
 _ /main 
