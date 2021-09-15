@@ -423,7 +423,7 @@ padding-top: 2.5rem;
     color: gray;
 }
 
-.col_33 p {
+.col_33 .cit {
     font-size: 1.2rem;
     padding: 2rem;
 } 
@@ -444,6 +444,17 @@ padding-top: 2.5rem;
 .red {
     background-color: #FF1C1C;
 }
+ .sky {
+     background-color: #B4D0E7;
+ }
+
+.blue {
+    background-color: #0D2481;
+}
+
+.yellow {
+    background-color: #FFD830;
+}
 
 .img_partners {
     width: 60%;
@@ -452,6 +463,13 @@ padding-top: 2.5rem;
     top: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
+}
+
+.padbot {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 90px;
 }
 /*
 _ /main 
