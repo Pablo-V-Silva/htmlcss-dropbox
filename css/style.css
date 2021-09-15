@@ -77,6 +77,9 @@ body {
     float: left;
 }
 
+.distance {
+    padding-top: 7rem;
+}
 
 .mdx {
     text-align: end;
@@ -123,6 +126,10 @@ a:hover {
 .spazilxl {
     padding-left: 2rem;
     padding-top: 2rem;
+}
+
+.spaziup {
+    padding: 1rem 0;
 }
 
 .marginxl {
@@ -323,12 +330,24 @@ padding-top: 2.5rem;
 }
 /* /abbonamenti */
 
-.cta_img {
+.cta_img, .op_img {
     width: 100%;
 }
 
 .text_title {
     font-size: 2rem;
+}
+
+.text_titlel {
+    font-size: 3.2rem;
+}
+
+.text_titlesm {
+    font-size: 1.5rem;
+}
+
+.operation .text_titlel {
+    font-size: 4rem;
 }
 
 .whitebtn {
@@ -343,6 +362,18 @@ padding-top: 2.5rem;
     transition: 0.2s;
     background-color: lightgray;
 }
+/* /1a call to action */
+
+.cardsm {
+    width: 30%;
+    float: left;
+}
+
+.center {
+    margin: 0 5%;
+    margin-top: 2rem;
+}
+
 /*
 _ /main 
 ____________ */
