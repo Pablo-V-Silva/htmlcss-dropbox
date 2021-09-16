@@ -199,13 +199,13 @@ nav li {
     display: none;
 }
 
-.support_menu p {
+.support p {
     padding: 1rem 3rem;
+    cursor: pointer;
 }
 
-.tendina .support {
+.tendina:hover .support {
     display: block;
-    z-index: 5;
 }
 
 /*
