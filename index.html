@@ -21,21 +21,31 @@
   </head>
   <body class="">
 
-    <header id="1">
+    <header id="uno">
       <nav class="clearfix">
         <ol class="hcol">
-          <li><img class="logo" src="./img/logo-small.png" alt="Logo Dropbox"></li>
+          <li class="nope"><a href="#uno"><img class="logo"
+                src="./img/logo-small.png" alt="Logo Dropbox"></a></li>
           <li><a href="">Perch&eacute; Dropbox</a></li>
           <li><a href="">Funzioni</a></li>
           <li><a href="">Piani e Prezzi</a></li>
         </ol>
         <ol class="hcol mdx">
-          <li><a href="">Supporto</a></li>
+          <li class="tendina">
+            <a href="">Supporto</a>
+            <div class="support">
+              <div class="support_menu">
+                <p class="support_link">Assistenza</p>
+                <p class="support_link">Orari uffici</p>
+              </div>
+            </div>
+          </li>
           <li><a href="">Contatta l'ufficio vendite</a></li>
           <li><a href="">Accedi</a></li>
-          <li><button class="bluebtn">Inizia</button></li>
+          <li class="nope"><button class="bluebtn">Inizia</button></li>
         </ol>
       </nav>
+
     </header>
     <!-- /site header -->
 
@@ -51,7 +61,7 @@
               perspiciatis ad, aspernatur illo.</p>
             <button class="bluebtn">Inizia la tua prova gratuita</button>
             <p>Annulla in qualsiasi momento</p>
-            <a href="#2"><i class="fas fa-arrow-down"></i></a>
+            <a href="#due"><i class="fas fa-arrow-down"></i></a>
           </div>
 
           <div class="col_70">
@@ -62,7 +72,9 @@
       </div>
       <!-- /work -->
 
-      <div id="2" class="containsm clearfix">
+      <div id="due"></div>
+
+      <div class="containsm clearfix">
         <h2>Trova il piano business che fa per te</h2>
 
         <form action="">
@@ -89,15 +101,16 @@
               <div class="spazism">
                 <button class="bluebtnbig">Prova gratis per 30 giorni</button>
               </div>
-              <p class="spazism">oppure <a href="">acquista ora</a></p>
+              <p class="spazism">oppure <a class="purchase" href="">acquista ora</a></p>
               <hr>
               <h4 class="spazism">Punti salienti del piano</h4>
               <ol class="spazism">
-                <li> Invia file fino a 100GB con Dropbox Transfert</li>
-                <li> Cartelle offline su dispositivi mobili</li>
-                <li> Pulizia remota dell'account</li>
-                <li> Filigrana documento</li>
-                <li> Assistenza prioritaria via email</li>
+                <li><span class="font"> Invia file fino a 100GB con Dropbox
+                    Transfert</span></li>
+                <li><span class="font"> Cartelle offline su dispositivi mobili</span></li>
+                <li><span class="font"> Pulizia remota dell'account</span></li>
+                <li><span class="font"> Filigrana documento</span></li>
+                <li><span class="font"> Assistenza prioritaria via email</span></li>
               </ol>
             </div>
           </div>
@@ -122,15 +135,16 @@
               <div class="spazism">
                 <button class="bluebtnbig">Prova gratis per 30 giorni</button>
               </div>
-              <p class="spazism">oppure <a href="">acquista ora</a></p>
+              <p class="spazism">oppure <a class="purchase" href="">acquista ora</a></p>
               <hr>
               <h4 class="spazism">Punti salienti del piano</h4>
               <ol class="spazism">
-                <li> Invia file fino a 100GB con Dropbox Transfert</li>
-                <li> Cartelle offline su dispositivi mobili</li>
-                <li> Pulizia remota dell'account</li>
-                <li> Filigrana documento</li>
-                <li> Assistenza prioritaria via email</li>
+                <li><span class="font"> Invia file fino a 100GB con Dropbox
+                    Transfert</span></li>
+                <li><span class="font"> Cartelle offline su dispositivi mobili</span></li>
+                <li><span class="font"> Pulizia remota dell'account</span></li>
+                <li><span class="font"> Filigrana documento</span></li>
+                <li><span class="font"> Assistenza prioritaria via email</span></li>
               </ol>
             </div>
           </div>
@@ -155,15 +169,16 @@
               <div class="spazism">
                 <button class="bluebtnbig">Prova gratis per 30 giorni</button>
               </div>
-              <p class="spazism">oppure <a href="">acquista ora</a></p>
+              <p class="spazism">oppure <a class="purchase" href="">acquista ora</a></p>
               <hr>
               <h4 class="spazism">Punti salienti del piano</h4>
               <ol class="spazism">
-                <li> Invia file fino a 100GB con Dropbox Transfert</li>
-                <li> Cartelle offline su dispositivi mobili</li>
-                <li> Pulizia remota dell'account</li>
-                <li> Filigrana documento</li>
-                <li> Assistenza prioritaria via email</li>
+                <li><span class="font"> Invia file fino a 100GB con Dropbox
+                    Transfert</span></li>
+                <li><span class="font"> Cartelle offline su dispositivi mobili</span></li>
+                <li><span class="font"> Pulizia remota dell'account</span></li>
+                <li><span class="font"> Filigrana documento</span></li>
+                <li><span class="font"> Assistenza prioritaria via email</span></li>
               </ol>
             </div>
           </div>
@@ -175,7 +190,7 @@
         <div class="row_abb">
           <div class="card">
             <div class="type">
-              <p><p><i class="fas fa-building"></i> Team</p></p>
+              <p><i class="fas fa-building"></i> Team</p>
             </div>
             <h3 class="title_card spazism">Enterprise</h3>
             <h4 class="spazism">Contatta l'ufficio vendite per i prezzi</h4>
@@ -528,9 +543,9 @@
         <div class="lingue">
           <span>
             <i class="fas fa-globe-americas"></i>
-           <a href="#1">
-             Italiano <i class="fas fa-angle-up"></i>
-          </a>
+            <a href="#uno">
+              Italiano <i class="fas fa-angle-up"></i>
+            </a>
           </span>
         </div>
       </div>

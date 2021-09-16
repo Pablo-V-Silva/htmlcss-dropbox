@@ -94,8 +94,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+nav li:hover {
+    border-bottom: 2px solid gray;
+}
+
+nav .nope:hover {
+    border-bottom: 0;
 }
 
 .col_30 {
@@ -112,7 +116,7 @@ a:hover {
 }
 
 .bluebtn:hover, .bluebtnbig:hover {
-    background-color: #003386;
+    background-color: #0046b6;
     transition: 0.2s;
     cursor: pointer;
 }
@@ -145,7 +149,9 @@ a:hover {
 /* *********
 * header
 */
-
+header {
+    position: relative;
+}
 header a {
     color: black;
 }
@@ -185,6 +191,23 @@ nav li {
     border: 0;
     color: white;
 }
+
+.support {
+    background-color: white;
+    position: absolute;
+    right: 26rem;
+    display: none;
+}
+
+.support_menu p {
+    padding: 1rem 3rem;
+}
+
+.tendina .support {
+    display: block;
+    z-index: 5;
+}
+
 /*
 * /header
 ************ */
@@ -192,8 +215,8 @@ nav li {
 /* _________
 _ main 
 */
-main {
-padding-top: 2.5rem;
+#due {
+    height: 50px;
 }
 
 .backxl {
@@ -299,6 +322,10 @@ padding-top: 2.5rem;
     font-size: 1rem;
 }
 
+.purchase {
+    color: #0061FF;
+}
+
 .spazibot {
     padding-bottom: 5rem;
 }
@@ -313,6 +340,10 @@ padding-top: 2.5rem;
     list-style: none;
 }
 
+.font {
+    font-family: 'Open Sans',sans-serif;
+}
+
 .desc_abb li {
     padding: 1rem;
     font-family: "Font Awesome 5 Free";
@@ -324,6 +355,7 @@ padding-top: 2.5rem;
     margin-left: -1rem;
     width: 1rem;
     font-weight: 900;
+    color: #0061FF;
 }
 
 .row_abb {
