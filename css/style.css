@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Open Sans',sans-serif;
+    min-width: 1440px;
 }
 
 html {
@@ -144,11 +145,13 @@ a:hover {
 /* *********
 * header
 */
+
 header a {
     color: black;
 }
 
 nav {
+    min-width: 1440px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -200,6 +203,10 @@ padding-top: 2.5rem;
     margin-bottom: 10rem;
 }
 
+.col_30 a {
+    text-decoration: none;
+    color: black;
+}
 .containxl {
     width: 80%;
     margin: 0 auto;
