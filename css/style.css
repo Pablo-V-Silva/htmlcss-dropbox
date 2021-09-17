@@ -149,9 +149,6 @@ nav .nope:hover {
 /* *********
 * header
 */
-header {
-    position: relative;
-}
 header a {
     color: black;
 }
@@ -189,20 +186,24 @@ nav li {
     color: white;
 }
 
+.tendina {
+    position: relative;
+}
+
 .support {
     background-color: white;
     position: absolute;
-    right: 26rem;
+    right: -2rem;
     display: none;
 }
 
 .support .support_link {
     display: block;
     padding: 1rem 3rem;
+    width: 176px;
 }
 
 .support .link_text:hover {
-    border-bottom: none;
     text-decoration: underline;
 }
 
@@ -210,6 +211,26 @@ nav li {
     display: block;
 }
 
+.login {
+    background-color: white;
+    position: absolute;
+    right: -4.4rem;
+    display: none;
+}
+
+.login .login_link {
+    display: block;
+    padding: 1rem 3rem;
+    min-width: 253px;
+}
+
+.login .link_text:hover {
+    text-decoration: underline;
+}
+
+.tendina:hover .login {
+    display: block;
+}
 /*
 * /header
 ************ */
