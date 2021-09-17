@@ -171,6 +171,7 @@ nav {
 
 nav li {
     display: inline-block;
+    padding: 0 1.5rem;
 }
 
 .logo {
@@ -179,10 +180,6 @@ nav li {
 }
 .hcol {
     width: 50%;
-}
-
-nav li {
-    padding: 0 1.5rem;
 }
 
 .bluebtn {
@@ -199,9 +196,14 @@ nav li {
     display: none;
 }
 
-.support p {
+.support .support_link {
+    display: block;
     padding: 1rem 3rem;
-    cursor: pointer;
+}
+
+.support .link_text:hover {
+    border-bottom: none;
+    text-decoration: underline;
 }
 
 .tendina:hover .support {
